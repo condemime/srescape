@@ -3,14 +3,15 @@
 
 ```
 SREscape/
-├── SREscape.java                   # Version sans images
+├── SREscape.java                   # Code source java
+├── config.properties               # Fichier de paramétrage
 ├── images/                         # Dossier contenant les images
-│   ├── logo_entreprise.png         # Logo
+│   ├── logo_entreprise.png         # Logo entreprise
 │   ├── slide_3_0.png               # Support client
 │   ├── slide_4_1.png               # Dashboard OK
 │   ├── slide_6_0.png               # Dashboard KO
 │   └── slide_7_0.png               # Dashboard restauré
-├── run.sh / run.bat                # Scripts pour version sans images
+├── run.sh / run.bat                # Scripts compilation et lancement
 └── README.md                       # Ce fichier
 ```
 
